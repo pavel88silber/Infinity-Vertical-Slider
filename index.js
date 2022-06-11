@@ -22,6 +22,8 @@ function slider() {
 //     slider()
 // }, 2000)
 
+// чтобы не тормозило
+slider()
 
 document.querySelector('.btn-infinity-left').onclick = function () {
     if (currentSlide == images.length - 1) {

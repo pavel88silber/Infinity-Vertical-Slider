@@ -3,7 +3,9 @@ body {
 }
 
 .infinity-slider {
-    width: 400px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: 400px;
     overflow: hidden;
     position: relative;
@@ -32,4 +34,9 @@ body {
 .btn-infinity-right {
     background: url('./img/right.png');
     background-size: contain;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
 }
