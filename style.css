@@ -1,0 +1,31 @@
+.infinity-slider {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.infinity-slider img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 1s;
+}
+
+.infinity-slider .opacity0 {
+    opacity: 0;
+}
+
+.btn-infinity-up, .btn-infinity-down {
+    width: 48px;
+    height: 48px;
+    background: url('./img/left.png');
+    background-size: contain;
+}
+
+.btn-infinity-down {
+    background: url('./img/right.png');
+    background-size: contain;
+}
