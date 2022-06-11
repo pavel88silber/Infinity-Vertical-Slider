@@ -34,8 +34,8 @@ document.querySelector('.btn-infinity-left').onclick = function () {
 }
 
 document.querySelector('.btn-infinity-right').onclick = function () {
-    if (currentSlide == 0) {
-        currentSlide = 3;
+    if (currentSlide - 1 == -1) {
+        currentSlide = images.length - 1;
     } else {
         currentSlide--
     }
